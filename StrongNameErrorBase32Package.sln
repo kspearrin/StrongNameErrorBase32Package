@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F017B998-82BF-4E81-B9B2-B178E91ACFFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3CA0945B-11E4-4B9F-A781-D99B0F09618E}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "StrongNameErrorBase32Package", "src\StrongNameErrorBase32Package\StrongNameErrorBase32Package.xproj", "{92EED234-535D-4DF2-B8DD-7AF9FF00AD4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92EED234-535D-4DF2-B8DD-7AF9FF00AD4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92EED234-535D-4DF2-B8DD-7AF9FF00AD4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92EED234-535D-4DF2-B8DD-7AF9FF00AD4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92EED234-535D-4DF2-B8DD-7AF9FF00AD4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92EED234-535D-4DF2-B8DD-7AF9FF00AD4B} = {F017B998-82BF-4E81-B9B2-B178E91ACFFF}
+	EndGlobalSection
+EndGlobal
